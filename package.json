@@ -1,0 +1,25 @@
+{
+  "name": "gulp-sass-barrels-only",
+  "version": "1.0.0",
+  "description": "A Gulp plugin that performs sass transpilation of barrel files only (it skips sass partials ie _partial.scss)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qloan/gulp-sass-barrels-only.git"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "barrel",
+    "files"
+  ],
+  "author": "eenewbsauce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qloan/gulp-sass-barrels-only/issues"
+  },
+  "homepage": "https://github.com/qloan/gulp-sass-barrels-only#readme"
+}
