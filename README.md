@@ -7,7 +7,7 @@ const sass = require('gulp-sass-barrels-only');
 
 gulp.src(source)
   .pipe(sass())
-  .pipe(.pipe(gulp.dest(destination)))
+  .pipe(gulp.dest(destination)))
   ```
 
 Or with LibSass Options
@@ -19,5 +19,5 @@ gulp.src(source)
   .pipe(sass({
       outputStyle: 'expanded'
     }))
-  .pipe(.pipe(gulp.dest(destination)))
+  .pipe(gulp.dest(destination)))
 ```

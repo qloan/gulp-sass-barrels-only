@@ -7,14 +7,14 @@ let gulpSass = function(options) {
   return through2.obj((file, enc, cb) => {
     var fileHistory = file.history[0];
     var filename = R.last(fileHistory.split('/'));
+
     if (filename.indexOf('_') === 0) {
         return cb();    //skip scss partials ie: _partials.scss
     }
-    nodeSass.render({
-        file: fileHistory,
-        options: options
-    }, (err, results) => {
 
+    options.file = fileHistory;
+
+    nodeSass.render(options, (err, results) => {
         if(err || !results) {
             console.log('[ERROR: failed while sassing ' + filename+ ']');
             console.dir(err);
@@ -28,6 +28,6 @@ let gulpSass = function(options) {
         }
     });
   });
-}
+};
 
 module.exports = gulpSass;
