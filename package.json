@@ -1,6 +1,6 @@
 {
   "name": "gulp-sass-barrels-only",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Gulp plugin that performs sass transpilation of barrel files only (it skips sass partials ie _partial.scss)",
   "main": "index.js",
   "scripts": {
