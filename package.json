@@ -24,7 +24,7 @@
   "homepage": "https://github.com/qloan/gulp-sass-barrels-only#readme",
   "dependencies": {
     "gulp-util": "^3.0.8",
-    "node-sass": "^4.1.1",
+    "node-sass": "4.5.3",
     "ramda": "^0.23.0",
     "through2": "^2.0.3"
   }
